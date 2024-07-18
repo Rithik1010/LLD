@@ -1,0 +1,18 @@
+{
+  "name": "lld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:without": "npm run build && node dist/without-strategy-pattern.js",
+    "start:with": "npm run build && node dist/with-strategy-pattern.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
